@@ -6,5 +6,7 @@ if __name__ == '__main__':
     psw = getpass("Insert your password: ")
 
     dab = DAB(email, psw)
-    print(dab.request_installation_data())
+    installation_data = dab.discover_installations()
+    print(installation_data)
+    print(dab.enable_power_shower(installation_data[0]['pumps'][0]))
     

@@ -158,3 +158,17 @@ class DAB():
             pumps_data.append(self.request_pump_data(pump_id))
         
         return pumps_data
+    
+    def enable_power_shower(self, pump_id: str) -> bool:
+        endpoint = f'{const.BASE_URL}dum/{pump_id}{const.ENABLE_POWER_SHOWER}'
+        
+        request_header = const.DEFAULT_HEADER.copy()
+        request_header['authorization'] += self.token
+
+        power_shower_res = self.session.post(endpoint, headers=request_header).json()
+
+        if 'res' in power_shower_res and power_shower_res['res'] == 'OK':
+            return True
+        else:
+            logging.error(f'There was an error while enabling power shower\n{power_shower_res["code"]}: {power_shower_res["msg"]}')
+            return False

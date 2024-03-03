@@ -5,6 +5,7 @@ AUTH: Final[str] = 'auth/token'
 INSTALLATION_LIST: Final[str] = 'getInstallationList'
 INSTALLATION: Final[str] = 'getInstallation'
 DUMSTATE: Final[str] = 'dumstate/'
+ENABLE_POWER_SHOWER: Final[str] = '/ccommands/power-shower/ON/'
 
 DEFAULT_HEADER = {
     'host': 'dconnect.dabpumps.com',

@@ -1,5 +1,5 @@
 [project]
-name = "dab-live-api"
+name = "dab_live_api"
 readme = "README.md"
 authors = [
     { name = "Domenico Blanco", email = "domenicog.blanco@gmail.com" }

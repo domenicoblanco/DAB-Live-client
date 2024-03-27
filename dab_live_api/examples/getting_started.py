@@ -1,4 +1,4 @@
-from dab-live-api import DAB
+from dab_live_api import DAB
 from getpass import getpass
 from asyncio import run
 

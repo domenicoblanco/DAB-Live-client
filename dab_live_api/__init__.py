@@ -2,7 +2,7 @@ import aiohttp
 from json import dumps, loads, JSONDecodeError
 from asyncio import get_event_loop, create_task, new_event_loop
 from datetime import datetime
-import const
+from .const import *
 import logging
 
 class DAB():

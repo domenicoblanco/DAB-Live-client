@@ -19,7 +19,9 @@ jobs:
   deploy:
 
     runs-on: ubuntu-latest
-    environment: release
+    environment:
+      name: dab-live-api
+      url: https://pypi.org/p/dab-live-api
     permissions:
       id-token: write
 

@@ -13,4 +13,4 @@ version = "0.0.1"
 
 [tool.setuptools]
 packages = ["dab-live-api"]
-py-modules = ["DAB"]
+py-modules = ["__init__"]

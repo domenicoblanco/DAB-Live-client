@@ -13,4 +13,4 @@ Just instantiate the class `DAB`, it supports three optional parameters:
 
 To get data for each of your installations you can use `request_installation_data`, it accepts an optional parameter, `installation_id`, to obtain data only for a pump.
 
-Give a look to the [init](__init__.py) to better understand how it works
+Give a look to the [init](dab-live-api/examples/getting_started.py) to better understand how it works

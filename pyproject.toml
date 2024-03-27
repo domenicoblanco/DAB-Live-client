@@ -11,5 +11,6 @@ requires-python = ">=3.12"
 license = { file = "LICENSE" }
 version = "0.0.1"
 
-[tool.setuptools.packages.find]
-where = ["dab-live-api"]
+[tool.setuptools]
+packages = ["dab-live-api"]
+py-modules = ["DAB"]

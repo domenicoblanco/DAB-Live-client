@@ -1,5 +1,5 @@
 [tool.setuptools]
-py-modules = []
+py-modules = ['DAB']
 
 [project]
 name = "dab-live-api"

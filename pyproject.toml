@@ -1,3 +1,6 @@
+[tool.setuptools]
+py-modules = []
+
 [project]
 name = "dab-live-api"
 readme = "README.md"

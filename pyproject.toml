@@ -1,5 +1,6 @@
-[tool.setuptools]
-py-modules = ['DAB']
+[tool.setuptools.packages.find]
+where = ["dab-live-api"]
+include = ["DAB"]
 
 [project]
 name = "dab-live-api"

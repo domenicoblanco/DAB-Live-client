@@ -1,5 +1,5 @@
 # DAB Live! client
-A simple Python client to obtain information about your connected pump.
+A simple Python client to obtain information about your connected pump and enable power shower.
 
 ## How to use
 Just instantiate the class `DAB`, it supports three optional parameters:
@@ -11,4 +11,6 @@ Just instantiate the class `DAB`, it supports three optional parameters:
  - `email`
  - `psw`
 
-To get data for each of your installations you can use `request_installation_data`, it accept an optional parameter, `installation_id`, to obtain data only for a pump.
+To get data for each of your installations you can use `request_installation_data`, it accepts an optional parameter, `installation_id`, to obtain data only for a pump.
+
+Give a look to the [init](__init__.py) to better understand how it works

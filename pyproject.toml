@@ -1,0 +1,12 @@
+[project]
+name = "dab-live-api"
+readme = "README.md"
+authors = [
+    { name = "Domenico Blanco", email = "domenicog.blanco@gmail.com" }
+]
+dependencies = [
+    "aiohttp"
+]
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+version = "0.0.1"
